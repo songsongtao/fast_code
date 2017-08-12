@@ -26,3 +26,6 @@ dependencies {
 - android7.0文件共享封装
 - 自定义TextView/RelativeLayout,支持边框,圆角,按压效果等
 - 图片压缩封装,以及简单异步批量处理图片
+
+## History
+- 添加成员彭欢亮
