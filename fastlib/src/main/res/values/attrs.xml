@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ButtonBgUi">
+        <!--边框颜色-->
+        <attr name="strokeColor" format="color" />
+        <!--边框选中颜色-->
+        <attr name="selectStrokeColor" format="color" />
+        <!--按压选中颜色-->
+        <attr name="pressedColor" format="color" />
+        <!--默认背景-->
+        <attr name="defaultColor" format="color" />
+        <!--是否开启水波纹5.0,默认开启-->
+        <attr name="isRipple" format="boolean" />
+        <!--变亮变暗参数-->
+        <attr name="parameter" format="float" />
+        <!--边框宽度-->
+        <attr name="strokeWidth" format="dimension" />
+        <!--圆角-->
+        <attr name="raoundRadius" format="dimension" />
+        <attr name="topLeftRadius" format="dimension" />
+        <attr name="topRightRadius" format="dimension" />
+        <attr name="bottomLeftRadius" format="dimension" />
+        <attr name="bottomRightRadius" format="dimension" />
+
+    </declare-styleable>
+
+
+</resources>
