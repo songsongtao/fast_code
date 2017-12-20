@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!--shape textView-->
     <declare-styleable name="ButtonBgUi">
         <!--边框颜色-->
         <attr name="strokeColor" format="color" />
@@ -25,5 +26,65 @@
 
     </declare-styleable>
 
+    <!--shape 布局-->
+    <declare-styleable name="LayoutBgUi">
+        <!--边框颜色-->
+        <attr name="layoutStrokeColor" format="color" />
+        <!--边框选中颜色-->
+        <attr name="layoutSelectStrokeColor" format="color" />
+        <!--按压选中颜色-->
+        <attr name="layoutPressedColor" format="color" />
+        <!--默认背景-->
+        <attr name="layoutDefaultColor" format="color" />
+        <!--是否开启水波纹5.0,默认开启-->
+        <attr name="layoutIsRipple" format="boolean" />
+        <!--变亮变暗参数-->
+        <attr name="layoutParameter" format="float" />
+        <!--边框宽度-->
+        <attr name="layoutStrokeWidth" format="dimension" />
+        <!--圆角-->
+        <attr name="layoutRoundRadius" format="dimension" />
+        <attr name="layoutTopLeftRadius" format="dimension" />
+        <attr name="layoutTopRightRadius" format="dimension" />
+        <attr name="layoutBottomLeftRadius" format="dimension" />
+        <attr name="layoutBottomRightRadius" format="dimension" />
+
+    </declare-styleable>
+
+    <!--************ Loading ***********-->
+    <declare-styleable name="LineRotateLoadingView">
+        <attr name="loading_view_size" format="dimension" />
+        <attr name="android:color" />
+    </declare-styleable>
+
+    <!-- EmptyView start -->
+    <declare-styleable name="QMUIEmptyView">
+        <attr name="qmui_show_loading" format="boolean" />
+        <attr name="qmui_title_text" format="string" />
+        <attr name="qmui_detail_text" format="string" />
+        <attr name="qmui_btn_text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="BannerLayout">
+        <!--轮播图点的大小-->
+        <attr name="bannerPointSize" format="dimension" />
+        <!--轮播图点的位置，分别有左中右-->
+        <attr name="bannerPointGravity" format="enum">
+            <enum name="left" value="3" />
+            <enum name="center" value="17" />
+            <enum name="right" value="5" />
+        </attr>
+        <!--轮播图点选中的图片-->
+        <attr name="bannerPointDrawableSelected" format="reference" />
+        <!--轮播图点未选中的图片-->
+        <attr name="bannerPointDrawableUnselected" format="reference" />
+        <!--轮播图循环时间，单位秒-->
+        <attr name="bannerDelaySecond" format="integer" />
+    </declare-styleable>
+
+    <!--矩形比例布局-->
+    <declare-styleable name="SquareLayout">
+        <attr name="ratio" format="float" />
+    </declare-styleable>
 
 </resources>
