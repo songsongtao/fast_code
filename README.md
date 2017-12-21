@@ -36,4 +36,4 @@ dependencies {
 - 图片压缩封装,以及简单异步批量处理图片
 
 ## History
-- 添加成员彭欢亮
+- MPermissionUtils(内存泄漏)改为SPermissionUtils
