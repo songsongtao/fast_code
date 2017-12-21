@@ -21,6 +21,14 @@ dependencies {
 ```
 ## Features
 
+### v1.1
+
+- 丰富工具类
+- 封装提示框，popWindow
+- 点赞view,空布局，正方形布局，banner,带删除的EditText等
+
+### v1.0
+
 - 基本的工具类
 - android6.0权限封装
 - android7.0文件共享封装
