@@ -16,7 +16,7 @@ allprojects {
 
 ```groovy
 dependencies {
-        compile 'com.github.songsongtao:study_code:v1.0'
+	compile 'com.github.songsongtao:fast_code:v1.1'
 }
 ```
 ## Features
