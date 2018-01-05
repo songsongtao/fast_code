@@ -90,11 +90,7 @@ public class ImageUtil {
         int inSampleSize = 1;
 
         if (height > reqHeight || width > reqWidth) {
-/*
-            final int halfHeight = height / 2;
-            final int halfWidth = width / 2;*/
 
-            //only 2 *
             while ((height / inSampleSize) >= reqHeight || (width / inSampleSize) >= reqWidth) {
                 inSampleSize *= 2;
             }
